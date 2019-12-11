@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf=8">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Bootstrap Visualization Dashboard</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="landing.html">L'Attitude</a>
+              </div>              
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Visualizations
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="data_viz_page_1.html">DataViz Page 1</a></li>
+                      <li><a href="data_viz_page_2.html">DataViz Page 2</a></li>
+                      <li><a href="data_viz_page_3.html">DataViz Page 3</a></li>
+                      <li><a href="data_viz_page_4.html">DataViz Page 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparisons_page.html"><span class="glyphicon glyphicon-duplicate"></span> Comparison</a></li>
+                <li><a href="data_page.html"><span class="glyphicon glyphicon-list-alt"></span> Data</a></li>
+              </ul>
+            </div>
+        </nav>
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1 style="color:#4aaaa5"> Summary: Latitude vs. X</h1>
+                    <hr/>
+                    <p style="font-size:x-large;">
+                    <img src="Resources/assets/images/Fig1.png" height="60%" width="60%" style="float: left;">
+                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    <br/><br/> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    </p>
+                </div>    
+                <div class="col-sm-4">
+                    <h3 style="color:#4aaaa5"> Visualizations (click any image to expand)<hr/></h3>
+                    <a href="data_viz_page_1.html"><img src="Resources/assets/images/Fig1.png" height="45%" width="45%"></a>
+                    <a href="data_viz_page_2.html"><img src="Resources/assets/images/Fig2.png" height="45%" width="45%"></a>
+                    <br/>
+                    <a href="data_viz_page_3.html"><img src="Resources/assets/images/Fig3.png" height="45%" width="45%"></a>
+                    <a href="data_viz_page_4.html"><img src="Resources/assets/images/Fig4.png" height="45%" width="45%"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
